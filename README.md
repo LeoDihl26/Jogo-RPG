@@ -80,8 +80,7 @@ Cada uma dessas escolhas abre um menu diferente, com diferentes opções de golp
         ("(4) - Descrições de cada Ataque");   ("(4) - Descrições de cada Ataque");  ("(4) - Arcane Powers ");                
         ("(5) - Status Gerais de (nome)");     ("(5) - Status Gerais de (nome)");    ("(5) - Circle of Death ");               
                                                                                      ("(6) - Descrições de cada Ataque "); 
-                                                                                     ("(7) - Status Gerais de (nome)");
-        
+                                                                                     ("(7) - Status Gerais de (nome)");     
 # Estrutura do Projeto #
 O projeto é composto pelas seguintes classes:  
 
@@ -91,17 +90,16 @@ O projeto é composto pelas seguintes classes:
 ```Personagem```: Esta classe possui a grande maioria das variáveis e alguns métodos que serão usadas na classe 'Aventura', onde a principal parte do código acontece  
 
 ---
-```Player1```: Classe que funciona como um constructor, para puxar as variáveis da 
+```Player1```: Classe que funciona como um constructor, e irá mostrar as estatísticas iniciais do personagem, logo após a escolha entre as classes. 
 
 ---
-```Item```: Esta classe possui duas variáveis ​​de instância privadas nome e efeito, um construtor que inicializa essas variáveis, e dois métodos getter, getNome e getEfeito. Que permitem acesso externo a essas 
-variáveis.  
+```Inventário```: Não implementada ainda. Irá conter e guardar os itens que serão usados ao longo do código e da luta. 
 
 ---
-```Conexão```:  Serve para fazer a conexão do java com a tabela criada no MySQLworkbanch.  
+```Conexão```:  Serve para fazer a conexão do java com quaisquer tabelas criadas no banco de dados.  
 
 ---
-```Personagem```: Responsável por inicializar um objeto Personagem com um nome e um valor de vida especificados.  
+```Aventura```: Classe onde acontecem todos os diálogos. É onde acontece a batalha e também onde estão diversos métodos, relacionados ao próprio sistema de batalha.
 
 # Pré-requisitos  
 Java 8 ou superior  
@@ -117,5 +115,6 @@ Este projeto está licenciado sob a MIT License.
 
 # Contato
 
-Autor: Vinícius Souza da Silva  
-E-mail: vinicius.s.silveira.2015@gmail.com
+Autor: Leonardo Dihl de Souza  
+E-mail: leodihl@gmail.com
+Telefone: (51) 992416676
